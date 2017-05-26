@@ -25,7 +25,7 @@ cp angle-MSVC2015-x64-Release/libEGL.dll \
    bin/Windows/angle/
 
 cp get-image-egl-Darwin-x64-Release/bin/* bin/Mac/angle/
-#Uncomment once swiftshader dlls are built on Mac: cp get-image-egl-Darwin-x64-Release/bin/* bin/Mac/swiftshader/
+cp get-image-egl-Darwin-x64-Release/bin/* bin/Mac/swiftshader/
 
 cp get-image-egl-Linux-x64-Release/bin/* bin/Linux/angle/
 cp get-image-egl-Linux-x64-Release/bin/* bin/Linux/swiftshader/
@@ -41,7 +41,7 @@ cp glslang-Darwin-x64-Release/bin/* bin/Mac/
 cp glslang-Linux-x64-Release/bin/* bin/Linux/
 cp glslang-MSVC2015-x64-Release/bin/* bin/Windows/
 
-#MAC BUILD BROKEN cp swiftshader-Darwin-x64-Release/* bin/Mac/swiftshader
+cp swiftshader-Darwin-x64-Release/* bin/Mac/swiftshader
 cp swiftshader-Linux-x64-Release/* bin/Linux/swiftshader
 cp swiftshader-MSVC2015-x64-Release/*.dll swiftshader-MSVC2015-x64-Release/*.lib bin/Windows/swiftshader
 

@@ -26,12 +26,17 @@ curl \
 curl \
   -fsSL \
   -o swiftshader-Linux-x64-Release.zip \
-  https://github.com/paulthomson/build-swiftshader/releases/download/v-121de9d74c36919c17219680ac1158df14f62a40/Linux-x64-Release-build.zip
+  https://github.com/paulthomson/build-swiftshader/releases/download/v-723a7b9edf3a5060af1616c06f09d06a69efab16/Linux-x64-Release-build.zip
 
 curl \
   -fsSL \
   -o swiftshader-MSVC2015-x64-Release.zip \
-  https://github.com/paulthomson/build-swiftshader/releases/download/v-121de9d74c36919c17219680ac1158df14f62a40/MSVC2015-x64-Release-build.zip
+  https://github.com/paulthomson/build-swiftshader/releases/download/v-723a7b9edf3a5060af1616c06f09d06a69efab16/MSVC2015-x64-Release-build.zip
+
+curl \
+  -fsSL \
+  -o swiftshader-Darwin-x64-Release.zip \
+  https://github.com/paulthomson/build-swiftshader/releases/download/v-723a7b9edf3a5060af1616c06f09d06a69efab16/Darwin-x64-Release-build.zip
 
 # glslang
 
