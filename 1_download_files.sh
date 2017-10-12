@@ -58,38 +58,19 @@ curl \
 # thrift (we don't need thrift; we have another repo for thrift since it is only needed at compile time)
 
 
-# get-image-glfw
+# get-image-glsl
 
 curl \
   -fsSL \
-  -o get-image-glfw-Darwin-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glfw/releases/download/v-53409ebf9ffaa73f4b3451b207fd86584382385a/Darwin-x64-Release.zip
+  -o get-image-glsl-Darwin-x64-Release.zip \
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/Darwin-x64-Release.zip
 
 curl \
   -fsSL \
-  -o get-image-glfw-Linux-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glfw/releases/download/v-53409ebf9ffaa73f4b3451b207fd86584382385a/Linux-x64-Release.zip
+  -o get-image-glsl-Linux-x64-Release.zip \
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/Linux-x64-Release.zip
 
 curl \
   -fsSL \
-  -o get-image-glfw-MSVC2015-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glfw/releases/download/v-53409ebf9ffaa73f4b3451b207fd86584382385a/MSVC2015-x64-Release.zip
-
-# get-image-egl
-
-curl \
-  -fsSL \
-  -o get-image-egl-Darwin-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-egl/releases/download/v-7eec53647332f5c4c55acdbeaafa404676e309d6/Darwin-x64-Release.zip
-
-curl \
-  -fsSL \
-  -o get-image-egl-Linux-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-egl/releases/download/v-7eec53647332f5c4c55acdbeaafa404676e309d6/Linux-x64-Release.zip
-
-curl \
-  -fsSL \
-  -o get-image-egl-MSVC2015-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-egl/releases/download/v-7eec53647332f5c4c55acdbeaafa404676e309d6/MSVC2015-x64-Release.zip
-
-
+  -o get-image-glsl-MSVC2015-x64-Release.zip \
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/MSVC2015-x64-Release.zip

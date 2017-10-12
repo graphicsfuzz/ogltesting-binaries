@@ -24,18 +24,14 @@ cp angle-MSVC2015-x64-Release/libEGL.dll \
    angle-MSVC2015-x64-Release/lib/libGLESv2.lib \
    bin/Windows/angle/
 
-cp get-image-egl-Darwin-x64-Release/bin/* bin/Mac/angle/
-cp get-image-egl-Darwin-x64-Release/bin/* bin/Mac/swiftshader/
+cp get-image-glsl-Darwin-x64-Release/bin/*glfw* bin/Mac/
+cp get-image-glsl-Darwin-x64-Release/bin/*egl* bin/Mac/swiftshader/
 
-cp get-image-egl-Linux-x64-Release/bin/* bin/Linux/angle/
-cp get-image-egl-Linux-x64-Release/bin/* bin/Linux/swiftshader/
+cp get-image-glsl-Linux-x64-Release/bin/*glfw* bin/Linux/
+cp get-image-glsl-Linux-x64-Release/bin/*egl* bin/Linux/swiftshader/
 
-cp get-image-egl-MSVC2015-x64-Release/bin/* bin/Windows/angle/
-cp get-image-egl-MSVC2015-x64-Release/bin/* bin/Windows/swiftshader/
-
-cp get-image-glfw-Darwin-x64-Release/bin/* bin/Mac/
-cp get-image-glfw-Linux-x64-Release/bin/* bin/Linux/
-cp get-image-glfw-MSVC2015-x64-Release/bin/* bin/Windows/
+cp get-image-glsl-MSVC2015-x64-Release/bin/*glfw* bin/Windows/
+cp get-image-glsl-MSVC2015-x64-Release/bin/*egl* bin/Windows/swiftshader/
 
 cp glslang-Darwin-x64-Release/bin/* bin/Mac/
 cp glslang-Linux-x64-Release/bin/* bin/Linux/
