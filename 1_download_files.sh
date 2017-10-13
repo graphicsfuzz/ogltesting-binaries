@@ -63,14 +63,14 @@ curl \
 curl \
   -fsSL \
   -o get-image-glsl-Darwin-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/Darwin-x64-Release.zip
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-b03b7af6c0d828d004666917cd1a4edbc4335ddd/Darwin-x64-Release.zip
 
 curl \
   -fsSL \
   -o get-image-glsl-Linux-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/Linux-x64-Release.zip
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-b03b7af6c0d828d004666917cd1a4edbc4335ddd/Linux-x64-Release.zip
 
 curl \
   -fsSL \
   -o get-image-glsl-MSVC2015-x64-Release.zip \
-  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-8ee699b9fbbf3297bb409814560520e667a4381b/MSVC2015-x64-Release.zip
+  https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-b03b7af6c0d828d004666917cd1a4edbc4335ddd/MSVC2015-x64-Release.zip
