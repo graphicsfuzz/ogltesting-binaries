@@ -4,7 +4,7 @@ set -e
 set -u
 
 
-# ANGLE (shader translator and libs for get-image-egl: EGL, libGLESv2)
+# ANGLE (shader translator and libs for get-image-glsl (EGL version): EGL, libGLESv2)
 
 curl \
   -fsSL \
@@ -21,12 +21,12 @@ curl \
   -o angle-MSVC2015-x64-Release.zip \
   https://github.com/paulthomson/build-angle/releases/download/v-592879ad24e66c7c68c3a06d4e2227630520da36/MSVC2015-Release-x64.zip # <-inconsistent
 
-# Swiftshader (software rendering libs for get-image-egl: EGL, libGLESv2)
+# Swiftshader (software rendering libs for for get-image-glsl (EGL version): EGL, libGLESv2)
 
 curl \
   -fsSL \
   -o swiftshader-Linux-x64-Release.zip \
-  https://github.com/paulthomson/build-swiftshader/releases/download/v-723a7b9edf3a5060af1616c06f09d06a69efab16/Linux-x64-Release-build.zip
+  https://github.com/paulthomson/build-swiftshader/releases/download/v-9518539a590d60c533ab41df93e3fca91a648131/Linux-x64-Release-build.zip
 
 curl \
   -fsSL \
