@@ -26,7 +26,7 @@ curl \
 curl \
   -fsSL \
   -o swiftshader-Linux-x64-Release.zip \
-  https://github.com/paulthomson/build-swiftshader/releases/download/v-9518539a590d60c533ab41df93e3fca91a648131/Linux-x64-Release-build.zip
+  https://github.com/paulthomson/build-swiftshader/releases/download/v-908da3d6571b6df58f34c6ad1160826bda3ee9de/Linux-x64-Release-build.zip
 
 curl \
   -fsSL \
