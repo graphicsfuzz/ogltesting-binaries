@@ -33,9 +33,9 @@ cp get-image-glsl-Linux-x64-Release/bin/*egl* bin/Linux/swiftshader/
 cp get-image-glsl-MSVC2015-x64-Release/bin/*glfw* bin/Windows/
 cp get-image-glsl-MSVC2015-x64-Release/bin/*egl* bin/Windows/swiftshader/
 
-cp glslang-Darwin-x64-Release/bin/* bin/Mac/
-cp glslang-Linux-x64-Release/bin/* bin/Linux/
-cp glslang-MSVC2015-x64-Release/bin/* bin/Windows/
+cp glslang-Darwin-x64-Release/bin/glslangValidator bin/Mac/
+cp glslang-Linux-x64-Release/bin/glslangValidator bin/Linux/
+cp glslang-MSVC2015-x64-Release/bin/glslangValidator.exe bin/Windows/
 
 cp swiftshader-Darwin-x64-Release/* bin/Mac/swiftshader
 cp swiftshader-Linux-x64-Release/* bin/Linux/swiftshader
