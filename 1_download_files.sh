@@ -43,17 +43,17 @@ curl \
 curl \
   -fsSL \
   -o glslang-Darwin-x64-Release.zip \
-  https://github.com/KhronosGroup/glslang/releases/download/7.9.2888/glslang-master-osx-Release.zip
+  https://github.com/paulthomson/build-glslang/releases/download/v-14f471c0eacf9ad88240f37680a818052474e50b/Darwin-x64-Release.zip
 
 curl \
   -fsSL \
   -o glslang-Linux-x64-Release.zip \
-  https://github.com/KhronosGroup/glslang/releases/download/7.9.2888/glslang-master-linux-Release.zip
+  https://github.com/paulthomson/build-glslang/releases/download/v-14f471c0eacf9ad88240f37680a818052474e50b/Linux-x64-Release.zip
 
 curl \
   -fsSL \
   -o glslang-MSVC2015-x64-Release.zip \
-  https://github.com/KhronosGroup/glslang/releases/download/7.9.2888/glslang-master-windows-x64-Release.zip
+  https://github.com/paulthomson/build-glslang/releases/download/v-14f471c0eacf9ad88240f37680a818052474e50b/MSVC2015-x64-Release.zip
 
 # thrift (we don't need thrift; we have another repo for thrift since it is only needed at compile time)
 
