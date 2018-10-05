@@ -46,4 +46,6 @@ cp swiftshader-MSVC2015-x64-Release/*.dll swiftshader-MSVC2015-x64-Release/*.lib
 #cp thrift-Linux-x64-Release/bin/* bin/Linux/
 #cp thrift-MSVC2015-x64-Release/bin/* bin/Windows/
 
-
+# TODO: mac: cp glslang-Darwin-x64-Release/bin/glslangValidator bin/Mac/
+cp get-image-glsl-Linux-x64-Release/bin/* bin/Linux/
+cp get-image-glsl-MSVC2015-x64-Release/bin/* bin/Windows/

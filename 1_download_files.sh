@@ -74,3 +74,20 @@ curl \
   -fsSL \
   -o get-image-glsl-MSVC2015-x64-Release.zip \
   https://github.com/graphicsfuzz/get-image-glsl/releases/download/v-b03b7af6c0d828d004666917cd1a4edbc4335ddd/MSVC2015-x64-Release.zip
+
+# spirv-tools
+
+#curl \
+#  -fsSL \
+#  -o get-image-glsl-Darwin-x64-Release.zip \
+#  TODO: mac build
+
+curl \
+  -fsSL \
+  -o get-image-glsl-Linux-x64-Release.zip \
+  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-72609bdd7c0ecdb677a3dbf0e09bfef6bb459773/Linux-x64-Release.zip
+
+curl \
+  -fsSL \
+  -o get-image-glsl-MSVC2015-x64-Release.zip \
+  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-72609bdd7c0ecdb677a3dbf0e09bfef6bb459773/MSVC2015-x64-Release.zip
