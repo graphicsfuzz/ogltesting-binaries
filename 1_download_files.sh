@@ -77,17 +77,17 @@ curl \
 
 # spirv-tools
 
-#curl \
-#  -fsSL \
-#  -o get-image-glsl-Darwin-x64-Release.zip \
-#  TODO: mac build
+curl \
+  -fsSL \
+  -o spirv-tools-Darwin-x64-Release.zip \
+  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-2dc1a3a5a9dd33114e3d73fdf51448954d44217b/Darwin-x64-Debug.zip
 
 curl \
   -fsSL \
-  -o get-image-glsl-Linux-x64-Release.zip \
-  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-72609bdd7c0ecdb677a3dbf0e09bfef6bb459773/Linux-x64-Release.zip
+  -o spirv-tools-Linux-x64-Release.zip \
+  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-2dc1a3a5a9dd33114e3d73fdf51448954d44217b/Linux-x64-Debug.zip
 
 curl \
   -fsSL \
-  -o get-image-glsl-MSVC2015-x64-Release.zip \
-  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-72609bdd7c0ecdb677a3dbf0e09bfef6bb459773/MSVC2015-x64-Release.zip
+  -o spirv-tools-MSVC2015-x64-Release.zip \
+  https://github.com/paulthomson/build-SPIRV-Tools/releases/download/v-2dc1a3a5a9dd33114e3d73fdf51448954d44217b/MSVC2015-x64-Debug.zip
